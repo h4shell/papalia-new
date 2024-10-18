@@ -1,4 +1,4 @@
-const myEmail = "aDRzaGVsbEBnbWFpbC5jb20=";
+const myEmail = "aW5mb0BwYXBhbGlhYXV0b2RlbW9saXppb25pLml0";
 const emailSubject = "Get In Touch - FROM Mywebsite";
 const specialForm = document.querySelector("#contact-form");
 const textarea = document.querySelector("#message-175e");

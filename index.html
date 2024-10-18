@@ -10,7 +10,6 @@
   <title>Home</title>
   <link rel="stylesheet" href="./public/css/main.css" media="screen">
   <link rel="stylesheet" href="./public/css/index.css" media="screen">
-  <script src="./public/js/jquery.js"></script>
   <script class="u-script" type="text/javascript" src="./public/js/main.js" defer=""></script>
   <meta name="referrer" content="origin">
   <link id="u-theme-google-font" rel="stylesheet"
@@ -31,13 +30,15 @@
 </head>
 
 <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false"
-  class="u-body u-xl-mode" data-lang="it">
+  class="u-body u-xl-mode relative" data-lang="it">
+  <div class="fseffect"></div>
   <header class="u-black u-clearfix u-header u-sticky u-sticky-09e4 u-header" id="sec-b370"><img
       class="u-expanded-height u-image u-image-default u-image-1" src="./public/images/header-logo-960.jpg" alt=""
       data-image-width="960" data-image-height="152"><a href="#" class="u-image u-logo u-image-2">
 
     </a>
     <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+
       <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
         <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
           href="#">
@@ -70,28 +71,11 @@
           </li>
         </ul>
       </div>
-      <div class="u-custom-menu u-nav-container-collapse">
-        <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-          <div class="u-inner-container-layout u-sidenav-overflow">
-            <div class="u-menu-close"></div>
-            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-              <li class="u-nav-item"><a
-                  class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                  href="#carousel_8fae" style="padding: 10px 20px;">Home</a>
-              </li>
-              <li class="u-nav-item"><a
-                  class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                  href="#carousel_76ce" style="padding: 10px 20px;">Chi Siamo</a>
-              </li>
-              <li class="u-nav-item"><a
-                  class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                  href="#carousel_9629" style="padding: 10px 20px;">Contatti</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-      </div>
+      <a id="hamburger-menu" syle="color: white; border: 1px solid"><svg xmlns="http://www.w3.org/2000/svg" width="45"
+          height="45" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+        </svg></a>
     </nav>
   </header>
   <section class="u-clearfix u-container-align-center-xs u-palette-1-light-3 u-section-1" id="carousel_8fae">
@@ -104,9 +88,9 @@
         <h2 class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-1">
           SEI IN PROVINCIA DI IMPERIA E HAI L'AUTO FERMA?<br>
         </h2>
-        <a href="#"
-          class="u-active-palette-5-dark-3 u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-border-none u-btn u-btn-round u-button-style u-hover-palette-5-dark-3 u-palette-1-base u-radius-2 u-text-active-white u-text-hover-white u-btn-1">SCRIVIMI
-          SU WHATSAPP </a>
+        <a href="tel:0184 31 042"
+          class="u-active-palette-5-dark-3 u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-border-none u-btn u-btn-round u-button-style u-hover-palette-5-dark-3 u-palette-1-base u-radius-2 u-text-active-white u-text-hover-white u-btn-1">CHIAMA
+          SUBITO</a>
       </div>
     </div>
   </section>
@@ -549,9 +533,8 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
               <img alt="" class="u-expanded-width u-image u-image-default u-image-1" data-image-width="638"
                 data-image-height="780" src="./public/images/1.jpg">
-              <h4 class="u-align-center u-text u-text-default u-text-2">Nat Reynolds</h4>
-              <p class="u-align-center u-large-text u-text u-text-default u-text-variant u-text-3">Tecnico
-                automobilistico</p>
+              <h4 class="u-align-center u-text u-text-default u-text-2">Valerio</h4>
+              <p class="u-align-center u-large-text u-text u-text-default u-text-variant u-text-3">+39 338 65 41 525</p>
             </div>
           </div>
           <div
@@ -559,17 +542,16 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
               <img alt="" class="u-expanded-width u-image u-image-default u-image-2" data-image-width="638"
                 data-image-height="780" src="./public/images/2.jpg">
-              <h4 class="u-align-center u-text u-text-default u-text-4">Pietro Pouli</h4>
-              <p class="u-align-center u-large-text u-text u-text-default u-text-variant u-text-5">Meccanico di
-                manutenzione</p>
+              <h4 class="u-align-center u-text u-text-default u-text-4">Davide</h4>
+              <p class="u-align-center u-large-text u-text u-text-default u-text-variant u-text-5">+39 335 72 58 547</p>
             </div>
           </div>
           <div
             class="u-container-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white u-list-item-3">
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
               <img alt="" class="u-expanded-width u-image u-image-default u-image-3" src="./public/images/6.jpg">
-              <h4 class="u-align-center u-text u-text-default u-text-6">Mila Parker</h4>
-              <p class="u-align-center u-large-text u-text u-text-default u-text-variant u-text-7">Meccanico Diesel</p>
+              <h4 class="u-align-center u-text u-text-default u-text-6">Claudio</h4>
+              <p class="u-align-center u-large-text u-text u-text-default u-text-variant u-text-7">+39 346 36 28 192</p>
             </div>
           </div>
           <div
@@ -577,10 +559,9 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
               <img alt="" class="u-expanded-width u-image u-image-default u-image-4" data-image-width="638"
                 data-image-height="780" src="./public/images/4.jpg">
-              <h4 class="u-align-center u-text u-text-default u-text-8">Autore: Kristopher
+              <h4 class="u-align-center u-text u-text-default u-text-8">Gianni
                 Roberts</h4>
-              <p class="u-align-center u-large-text u-text u-text-default u-text-variant u-text-9">Meccanico di
-                elicotteri</p>
+              <p class="u-align-center u-large-text u-text u-text-default u-text-variant u-text-9">+39 335 72 58 546</p>
             </div>
           </div>
 
@@ -589,9 +570,9 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-6">
               <img alt="" class="u-expanded-width u-image u-image-default u-image-6" data-image-width="638"
                 data-image-height="780" src="./public/images/8.jpg">
-              <h4 class="u-align-center u-text u-text-default u-text-12" data-animation-name="">Sasha Payne</h4>
-              <p class="u-align-center u-large-text u-text u-text-default u-text-variant u-text-13">Tecnico di
-                carrozzeria</p>
+              <h4 class="u-align-center u-text u-text-default u-text-12" data-animation-name="">Rocco</h4>
+              <p class="u-align-center u-large-text u-text u-text-default u-text-variant u-text-13">+39 335 72 58 545
+              </p>
             </div>
           </div>
         </div>
@@ -669,6 +650,39 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
       </div>
     </div>
   </section>
+
+  <section class="u-align-center u-clearfix u-container-align-center u-white u-section-3" id="carousel_76ce">
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+      <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-26 u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout" style="">
+          <div class="u-layout-row" style="">
+            <div
+              class="u-align-center u-container-align-center u-container-align-left u-container-style u-layout-cell u-left-cell u-size-30-lg u-size-30-xl u-size-60-md u-size-60-sm u-size-60-xs u-size-xs-60 u-layout-cell-1"
+              src="">
+              <div class="u-container-layout u-valign-middle u-container-layout-1" src="">
+                <h3 class="u-align-left u-text u-text-1">Dove Siamo</h3>
+                <p class="u-align-left u-large-text u-text u-text-default u-text-variant u-text-2">
+                  <b>Papalia Autodemolizioni</b> <br>Via Edmondo de Amicis, 60 <br>18039 Ventimiglia (IM)
+                </p>
+
+
+
+              </div>
+            </div>
+            <div
+              class="u-container-style u-layout-cell u-right-cell u-shape-rectangle u-size-30-lg u-size-30-xl u-size-60-md u-size-60-sm u-size-60-xs u-size-xs-60 u-layout-cell-2"
+              src="">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.769395419135!2d7.584912776676308!3d43.83987924033627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cded36ed5414df%3A0x28cb59ed4b4f4098!2sPAPALIA%20-%20Autodemolizioni%20e%20Soccorso%20Stradale%2024h%2F24h!5e0!3m2!1sit!2sit!4v1729238767715!5m2!1sit!2sit"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="u-clearfix u-section-9" id="carousel_9629">
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
       <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
@@ -705,7 +719,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                     </div>
                     <div class="u-align-left u-form-group u-form-submit">
 
-                      <input type="checkbox" id="check" disabled />
+                      <input type="checkbox" id="check" name="accept" disabled />
                       <a class="text-black">Accetta i termini e le condizioni</a>
                     </div>
 
