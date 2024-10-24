@@ -9,6 +9,13 @@
    margin-bottom: 0;
  }
 
+ .container-card {
+   display: grid !important;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1rem;
+ }
+
+
  .u-section-1 .u-image-1 {
    width: 1013px;
    height: 675px;
@@ -76,10 +83,15 @@
    }
  }
 
- @media (max-width: 991px) {
+ @media (max-width: 992px) {
    .u-section-1 .u-shape-1 {
      height: 231px;
      margin-top: 170px;
+   }
+
+   .container-card {
+     display: flex !important;
+     flex-direction: column !important;
    }
 
    .u-section-1 .u-image-1 {
