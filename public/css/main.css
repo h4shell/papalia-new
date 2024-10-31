@@ -10,7 +10,8 @@ html {
 }
 
 .wrapper-contact {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin-inline: auto;
   flex-wrap: wrap;
@@ -21,7 +22,6 @@ html {
 .wrapper-contact a {
   width: 100%;
   margin: 0 !important;
-  width: fit-content;
 }
 
 
@@ -9546,6 +9546,11 @@ ul.u-text li:last-child {
 }
 
 @media (max-width: 992px) {
+
+  .wrapper-contact {
+    display: flex;
+  }
+
   .u-nav-container {
     position: fixed;
     left: 0;
