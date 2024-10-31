@@ -11,10 +11,19 @@ html {
 
 .wrapper-contact {
   display: flex;
-  width: fit-content;
   gap: 1rem;
   margin-inline: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
 }
+
+.wrapper-contact a {
+  width: 100%;
+  margin: 0 !important;
+  width: fit-content;
+}
+
 
 .container-card .card {
   background: #ecf0fb;
@@ -33,9 +42,11 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-radius: 50%;
 }
+
+
+
 
 .fr-clearfix::after {
   clear: both;
