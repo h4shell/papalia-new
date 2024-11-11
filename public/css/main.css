@@ -19,6 +19,15 @@ html {
   margin-top: 2rem;
 }
 
+.subitle {
+  margin-top: 0 !important;
+}
+
+.title {
+  margin-bottom: 0 !important;
+  margin-top: 3rem !important;
+}
+
 .wrapper-contact a {
   width: 100%;
   margin: 0 !important;
