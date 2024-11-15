@@ -9,6 +9,16 @@ html {
   scroll-behavior: smooth;
 }
 
+#logo {
+  margin-top: 2rem;
+  height: 900px;
+  background: url('/public/images/logo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
 .wrapper-contact {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
