@@ -68,7 +68,7 @@ html {
   height: 150px !important;
   width: 250px !important;
   margin-inline: auto !important;
-  filter: hue-rotate(275deg)
+  filter: hue-rotate(80deg)
 }
 
 .btn {
