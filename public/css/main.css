@@ -10,14 +10,10 @@ html {
 }
 
 #logo {
-  margin-top: 2rem;
-  height: 900px;
-  background: url('/public/images/logo.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
+  width: min(1000px, 100% - 1rem);
+  margin-top: 1rem;
 }
+
 
 .wrapper-contact {
   display: grid;
