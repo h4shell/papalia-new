@@ -3,6 +3,18 @@
    min-height: 977px;
  }
 
+ .text-white {
+   color: white !important;
+ }
+
+ .background-color {
+   background-color: rgb(27, 49, 129);
+ }
+
+ .background-color-2 {
+   background-color: #2a3e89;
+ }
+
  .u-section-1 .u-shape-1 {
    height: 351px;
    margin-top: 232px;
